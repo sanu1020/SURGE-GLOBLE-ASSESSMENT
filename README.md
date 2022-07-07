@@ -52,13 +52,18 @@ $ docker-compose down
 
 Open new terminal
 
-run command -> cd signupbackend
+run command 
+```
+$ cd signupbackend
+```
+
 after moved to signupbackend
 
-run command -> npm test
+run command 
 
-
-
+```
+$ npm test
+```
 #### backend (Backend)
 
 This is a Node js based application that connects with an database which is used express to perform serving files, handling requests, and handling HTTP methods. It supports multiple HTTP API's like GET, POST, PUT and
