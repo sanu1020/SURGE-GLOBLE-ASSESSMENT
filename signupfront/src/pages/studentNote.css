@@ -1,0 +1,91 @@
+.studentNote{
+    display: flex;
+    justify-content: center;
+    height: 100vh ;
+    
+
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+
+.inputs {
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    
+}
+
+.inputs input {
+    width: 500px;
+    height: 70px;
+    font-size: 20px;
+    margin: 10px;
+    padding-left: 10px;
+    border-radius: 5px;
+    
+}
+
+.inputs button {
+    width: 500px;
+    height: 60px;
+    
+    
+    
+   
+    
+    border-radius: 5px;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+
+
+.listNotes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top:  20px; ;
+}
+
+.notesContainer{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+
+
+.notesContainer button{
+    width: 100px;
+    height: 40px;
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 60px;
+    margin-top: 90px;
+    
+}
+
+
+table, th, td{
+    width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding-right: 100px;
+   margin-top: 50px;
+    
+   
+  }
